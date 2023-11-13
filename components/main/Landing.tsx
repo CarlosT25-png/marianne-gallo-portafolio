@@ -6,7 +6,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: "700" });
 const Landing = () => {
   return (
     <>
-      <video autoPlay muted loop className={styles.video}>
+      <video autoPlay muted loop playsInline className={styles.video}>
         <source src="/videos/background.mp4" />
       </video>
       <div className={styles['title-container']}>

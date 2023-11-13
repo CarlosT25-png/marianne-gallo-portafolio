@@ -27,7 +27,7 @@
   margin-left: 1.5rem;
 }
 
-@media  (width <= 768px) {
+@media  (width < 768px) {
   .title-container {
     font-size: 2rem;
   }

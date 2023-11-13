@@ -2,6 +2,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 html {
   /* 62.5% of 16px browser font size is 10px */
@@ -9,6 +10,9 @@ html {
 }
 
 :root {
-	--mobile-breakpoint: 768px;
-	--tablet-breakpoint: 900px;
+	--celestin: #A7DDFF;
+  --naranjin: #FFBD59;
+  --rosadin: #FFCACA;
+  --moradin: #E1D1FF;
+  --verdin: #DCEDC1;
 }

@@ -1,0 +1,26 @@
+.container {
+  width: 600vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.panel {
+  width: 100vw;
+  height: 100vh;
+}
+.carrer-slide {
+  background: var(--rosadin);
+}
+.soli-slide {
+  background: var(--naranjin);
+}
+.roots-slide {
+  background: var(--celestin);
+}
+.meet-me-slide {
+  background: var(--moradin);
+}
+.goals-slide {
+  background-color: var(--verdin);
+}

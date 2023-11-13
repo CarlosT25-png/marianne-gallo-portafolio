@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@next/font': ^14.0.2
   '@types/node': ^20
   '@types/react': ^18
   '@types/react-dom': ^18
@@ -11,6 +12,7 @@ specifiers:
   typescript: ^5
 
 dependencies:
+  '@next/font': 14.0.2_next@14.0.2
   gsap: 3.12.2
   next: 14.0.2_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
@@ -26,6 +28,14 @@ packages:
 
   /@next/env/14.0.2:
     resolution: {integrity: sha512-HAW1sljizEaduEOes/m84oUqeIDAUYBR1CDwu2tobNlNDFP3cSm9d6QsOsGeNlIppU1p/p1+bWbYCbvwjFiceA==}
+    dev: false
+
+  /@next/font/14.0.2_next@14.0.2:
+    resolution: {integrity: sha512-lJih8sNzs2rBRO7ySkyqheGKWAt50CmVB2fmIxAdb6mj0+1v4sU+9tQwM2mMus1K0QOVkXPSHb13+Tj5Iu+1wA==}
+    peerDependencies:
+      next: '*'
+    dependencies:
+      next: 14.0.2_biqbaboplfbrettd7655fr4n2y
     dev: false
 
   /@next/swc-darwin-arm64/14.0.2:

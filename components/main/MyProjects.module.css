@@ -28,3 +28,13 @@
   transform: translate(-50%, -50%);
   height: 60rem;
 }
+
+@media (width < 768px){
+  .title{
+    font-size: 3.5rem;
+  }
+
+  .img{
+    height: 45rem;
+  }
+}

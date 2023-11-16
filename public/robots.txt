@@ -1,0 +1,4 @@
+User-agent: *
+
+# Allow search engines to index all other pages
+Allow: /

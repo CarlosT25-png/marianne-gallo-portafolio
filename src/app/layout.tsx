@@ -13,9 +13,6 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: 'Marianne Gallo',
   description: 'Marianne Gallo - Portafolio',
-  icons: {
-    icon: './favicon.ico'
-  }
 }
 
 export default function RootLayout({

@@ -9,7 +9,13 @@ const Landing = () => {
       <img src="/images/landing/Background.gif" alt="Background gif"  className={styles['bg-image']}/>
       <div className={styles['title-container']}>
         <div className={styles['title-container__flex']}>
-          <h1 className={poppins.className}>Welcome</h1>
+          <div className={`${poppins.className} ${styles['words']}`}>
+            <span>Welcome</span>
+            <span>Bienvenido</span>
+            <span>Bienvenue</span>
+            <span>ようこそ</span>
+            <span>स्वागत है</span>
+          </div>
           <h1 className={`${poppins.className} ${styles['title-container__static-text']} ${styles['title-container__static-text-1'] }`}> to my</h1>
         </div>
         <h1 className={`${poppins.className} ${styles['title-container__static-text']}`}>Creative Space</h1>

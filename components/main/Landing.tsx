@@ -34,7 +34,7 @@ const Landing = () => {
                 </span>
             </div>
           </h1>
-          <h1>to my</h1>
+          <h1 style={{ margin: 0}}>to my</h1>
         </div>
         <h1
           className={`${poppins.className} ${styles["title-container__static-text"]} ${styles["bottom-align"]}`}

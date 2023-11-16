@@ -6,9 +6,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: "700" });
 const Landing = () => {
   return (
     <>
-      <video autoPlay muted loop playsInline className={styles.video}>
-        <source src="/videos/background.mp4" />
-      </video>
+      <img src="/images/landing/Background.gif" alt="Background gif"  className={styles['bg-image']}/>
       <div className={styles['title-container']}>
         <div className={styles['title-container__flex']}>
           <h1 className={poppins.className}>Welcome</h1>

@@ -9,6 +9,7 @@ import MyProjects from "./MyProjects";
 import Slide from "./carouselSlides/Slide";
 import { texts } from '../../utils/constants/texts'
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -64,6 +65,7 @@ export default function Scene() {
         </div>
       </div>
       <MyProjects />
+      <Footer />
     </div>
   );
 }

@@ -29,7 +29,7 @@ const MyProjects = () => {
   }, [])
 
   return (
-    <section className={styles['section-container']}>
+    <section id="work" className={styles['section-container']}>
       <div className={styles['container']}>
         <h1 className={`${poppins.className} ${styles.title}`}>My Projects</h1>
         <img className={styles.img} src={`/images/my-projects/${imgSrc}.png`} />

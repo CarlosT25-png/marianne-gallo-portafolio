@@ -8,6 +8,7 @@ import Landing from "./Landing";
 import MyProjects from "./MyProjects";
 import Slide from "./carouselSlides/Slide";
 import { texts } from '../../utils/constants/texts'
+import Nav from "./Nav";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -41,6 +42,7 @@ export default function Scene() {
 
   return (
     <div className="App" ref={component}>
+      <Nav />
       <div>
         <Landing />
       </div>

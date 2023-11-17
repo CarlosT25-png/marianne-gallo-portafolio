@@ -7,6 +7,7 @@ const Landing = () => {
   return (
     <>
       <img
+        id="home"
         src="/images/landing/Background.gif"
         alt="Background gif"
         className={styles["bg-image"]}

@@ -1,0 +1,48 @@
+.nav {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  z-index: 2;
+  padding: 0rem 3rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 2rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  column-gap: 4rem;
+}
+
+.link {
+  border-radius: 8px;
+}
+
+.link a {
+  display: block;
+  padding: .75rem 2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link a:hover {
+  text-decoration: none;
+}
+
+.celestin:hover {
+  outline: 4px solid var(--celestin);
+}
+
+.naranjin:hover {
+  outline: 4px solid var(--naranjin);
+}
+
+.rosadin:hover {
+  outline: 4px solid var(--rosadin);
+}
+
+.moradin:hover {
+  outline: 4px solid var(--moradin);
+}

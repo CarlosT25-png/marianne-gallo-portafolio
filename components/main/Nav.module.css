@@ -1,5 +1,6 @@
 .menu-btn {
   background-color: #ffffff;
+  color: #000;
   position: fixed;
   top: 3rem;
   right: 3rem;
@@ -15,6 +16,7 @@
 }
 
 .menu-btn svg{
+  color: #000;
   height: 3rem;
   width: 3rem;
 }

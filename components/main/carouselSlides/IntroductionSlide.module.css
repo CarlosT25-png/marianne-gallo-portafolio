@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container img {
+  width: 40rem;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content-container h2 {
+  font-family: inherit;
+  font-size: 6rem;
+  font-weight: 700;
+  color: var(--celestin);
+  margin-top: 0;
+}
+
+.content-container p {
+  outline: 2px solid var(--celestin);
+  font-size: 2rem;
+  max-width: 70rem;
+  padding: 4rem 3rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.content-container caption {
+  font-size: 1.6rem;
+  margin-top: 5rem;
+}

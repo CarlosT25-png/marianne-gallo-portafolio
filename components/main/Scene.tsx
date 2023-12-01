@@ -10,6 +10,7 @@ import Slide from "./carouselSlides/Slide";
 import { texts } from '../../utils/constants/texts'
 import Nav from "./Nav";
 import Footer from "./Footer";
+import IntroductionSlide from "./carouselSlides/IntroductionSlide";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -48,6 +49,9 @@ export default function Scene() {
         <Landing />
       </div>
       <div ref={slider} className="container">
+        <div className="panel">
+          <IntroductionSlide />
+        </div>
         <div className="panel carrer-slide">
           <Slide {...texts[0]} />
         </div>

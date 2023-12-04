@@ -38,3 +38,22 @@
   font-size: 1.6rem;
   margin-top: 5rem;
 }
+
+@media (width < 768px){
+  .container img {
+    display: none;
+  }
+
+  .content-container h2 {
+    font-size: 4rem;
+  }
+
+  .content-container p {
+    outline: 2px solid var(--celestin);
+    font-size: 1.6rem;
+    max-width: 35rem;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+}

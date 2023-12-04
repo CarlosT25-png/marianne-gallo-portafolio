@@ -43,8 +43,9 @@
 
 @media (width < 768px){
   .text-frame {
-    font-size: 1rem;
+    font-size: 1.4rem;
     padding: 0.75rem 1.5rem;
+    flex-direction: column;
   }
 }
 

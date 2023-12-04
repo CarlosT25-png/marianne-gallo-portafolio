@@ -30,6 +30,12 @@ const MyProjects = () => {
 
   return (
     <section id="work" className={styles['section-container']}>
+      <div className={styles['cards-container']}>
+        <div className={styles['card']}>
+          <h3>My Projects</h3>
+          <p>Some text...</p>
+        </div>
+      </div>
       <div className={styles['container']}>
         <h1 className={`${poppins.className} ${styles.title}`}>My Projects</h1>
         <img className={styles.img} src={`/images/my-projects/${imgSrc}.png`} />

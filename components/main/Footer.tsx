@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div className={`${styles['text-frame']}`}>
         <h4>Designed by: Marianne Gallo</h4>
-        <h4>2023 @ All right reserved</h4>
+        <h4>2023 @ All rights reserved</h4>
         <h4>Developed by: Carlos Torres</h4>
       </div>
     </footer>
